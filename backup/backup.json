@@ -1,0 +1,73 @@
+{
+    "vendors": [
+        {
+            "id": 1,
+            "name": "VendorOne",
+            "phone": "1212121213"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Apples",
+            "price": 100.0,
+            "vendor_id": 1
+        }
+    ],
+    "inventory": [
+        {
+            "product_id": 1,
+            "quantity": 0
+        }
+    ],
+    "purchases": [
+        {
+            "product_id": 1,
+            "vendor_id": 1,
+            "quantity": 2
+        },
+        {
+            "product_id": 1,
+            "vendor_id": 1,
+            "quantity": 5
+        },
+        {
+            "product_id": 1,
+            "vendor_id": 1,
+            "quantity": 1
+        },
+        {
+            "product_id": 1,
+            "vendor_id": 1,
+            "quantity": 10
+        }
+    ],
+    "sales": [
+        {
+            "product_id": 1,
+            "quantity": 2,
+            "selling_price": 400.0
+        },
+        {
+            "product_id": 1,
+            "quantity": 1,
+            "selling_price": 100.0
+        },
+        {
+            "product_id": 1,
+            "quantity": 5,
+            "selling_price": 100.0
+        },
+        {
+            "product_id": 1,
+            "quantity": 10,
+            "selling_price": 1000.0
+        }
+    ],
+    "account": [
+        {
+            "balance": 91600.0,
+            "initialized": 1
+        }
+    ]
+}
