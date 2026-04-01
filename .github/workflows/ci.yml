@@ -25,4 +25,4 @@ jobs:
           flake8 app/ --count --max-line-length=120 --exclude=__pycache__ --statistics
       
       - name: Build Docker image
-        rune: docker build -t minierp-backend ./app
+        run: docker build -t minierp-backend ./app
